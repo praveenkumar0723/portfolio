@@ -1,0 +1,777 @@
+*
+{
+    margin: 0;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    
+}
+body
+{
+    overflow-x: hidden;
+ 
+}
+.header
+{
+  display: flex;
+  padding-left: 15px;
+  border: 2px solid green;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0 0 5px greenyellow,0 0 25px greenyellow,0 0 50px greenyellow,0 0 100px greenyellow,0 0 200px greenyellow;
+ 
+}
+.header h1
+{
+  font-size: 60px;
+  opacity: 0;
+  color: green;
+  animation: slideRight 1s ease forwards;
+}
+.header h1 span
+{
+  color: white;
+}
+.header-content
+{
+   padding-left: 25%;
+   opacity: 0;
+   animation: slideTop 1s ease forwards;
+   animation-delay: .7s;
+}
+.header-content a
+{
+   padding-left: 50px;
+   padding-top: 10px;
+   font-size: 35px;
+   text-decoration: none;
+   color: white;
+   opacity: 0;
+   animation: slideTop .5s ease forwards;
+}
+.header-content a:hover
+{
+   color: greenyellow;
+  
+}
+.image1
+{
+    background-image: url("./photo.jpg");
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 50px greenyellow;
+    background-size: cover;
+    margin-right: 60px;
+    border-radius: 50%;
+}
+.page1-head
+{
+    padding-top: 6pc;
+    padding-left: 7%;
+    display: flex;
+}
+.page1-content
+{
+    padding-right: 200px;
+}
+.page1-content h1
+{
+    font-size: 40px;
+    opacity: 0;
+    color: greenyellow;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.page1-content h2
+{
+    font-size: 40px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+    color: rgb(109, 194, 109);
+}
+.page1-content h1 span
+{
+    color: white;
+}
+.page1-content p
+{
+    color: rgb(42, 227, 42);
+    font-size: 45px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.page1-content ul
+{
+    font-size: 25px;
+    opacity: 0;
+    color: rgb(220, 233, 233);
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+.page1-content ul li
+{
+    color: rgb(220, 233, 233);
+}
+.home-sci 
+{
+     padding-left: 10%;
+    
+}
+.home-sci a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover
+{
+    box-shadow: 0 0 20px greenyellow;
+}
+.button
+{
+    padding-top: 10px;
+    padding-left: 7pc;
+    
+}
+.button button
+{
+    padding: 8px;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: black;
+    background-color: green;
+    border-radius: 30px;
+    box-shadow: 0 0 20px greenyellow;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.button button:hover
+{
+    box-shadow: 0 0 5px greenyellow,0 0 25px greenyellow,0 0 50px greenyellow,0 0 100px greenyellow,0 0 200px greenyellow;
+}
+.About h1
+{
+     font-size: 80px;
+     text-align: center;
+     padding-top: 7%;
+     padding-bottom: 5%;
+     opacity: 0;
+     animation: slideBottom 1s ease forwards;
+     animation-delay: 2s;
+     color: green;
+}
+.About h1 span
+{
+     color: white;
+}
+.About-info
+{
+    display: flex;
+}
+.About-img
+{
+    background-image: url("./photo.jpg");
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 0 50px greenyellow;
+    background-size: cover;
+    margin-left: 30px;
+    padding-right: 5px;
+    border-radius: 50%;
+    
+}
+.About-info div
+{
+    padding-left: 18%;
+}
+.About-content h2
+{
+    font-size: 40px;
+    padding-bottom: 3%;
+    opacity: 0;
+    color: rgb(45, 67, 11);
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.About-content p
+{
+    font-size: 20px;
+    padding-bottom: 4%;
+    padding-left: 20px;
+    opacity: 0;
+    color: white;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+.button1
+{
+    margin-left: 30px;
+    padding: 8px;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: black;
+    background-color: green;
+    border-radius: 30px;
+    box-shadow: 0 0 20px greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+    
+}
+.button1:hover
+{
+    box-shadow: 0 0 5px greenyellow,0 0 25px greenyellow,0 0 50px greenyellow,0 0 100px greenyellow,0 0 200px greenyellow;
+}
+
+.skills h1
+{
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 80px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    color: green;
+}
+.skills h1 span
+{
+   color: white;
+   opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.skill-set
+{
+    padding-left: 150px;
+}
+.set1 h4
+{
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.set1 h4 span
+{
+    font-size: 24px;
+    color: gray;
+    padding-left: 240px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.set1 h4 span:hover
+{
+    color: white;
+    font-size: 28px;
+}
+.set1 h3
+{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    opacity: 0;
+    color: rgb(111, 235, 111);
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.set1 h3 hr
+{
+    width: 260px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.out-border1
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.in-border1
+{
+    width: 320px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.out-border2
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.in-border2
+{
+    width: 360px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.out-border3
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.in-border3
+{
+    width: 380px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.out-border4
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.in-border4
+{
+    width: 360px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.out-border5
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.in-border5
+{
+    width: 320px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.skill-set
+{
+    display: flex;
+}
+
+.container1
+{
+    padding-left:300px;
+}
+.container1 h1
+{
+    color: rgb(144, 226, 144);
+    font-size: 40px;
+}
+.container1 h1 hr
+{
+    width: 360px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.radio-bars
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s; */
+}
+.radio-bars .radio
+{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radio-bars .radio svg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radio-bars .radio .process-bar
+{
+    stroke-width: 10;
+    stroke: white;
+    fill: transparent;
+    stroke-dashoffset: 502;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+    /* opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s; */
+}
+
+@keyframes animate-bar
+{
+    100%
+    {
+        stroke-dashoffset: -1;
+    }
+}
+
+.path
+{
+    stroke-width: 10;
+    stroke: greenyellow;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-2{animation: animate-path1 1s 1s linear forwards;}
+.path-3{animation: animate-path1 1s 1s linear forwards;}
+.path-4{animation: animate-path1 1s 1s linear forwards;}
+
+@keyframes animate-path1
+{
+   100%
+   {
+    stroke-dashoffset: 50;
+   }
+}
+@keyframes animate-path2
+{
+   100%
+   {
+    stroke-dashoffset: 175;
+   }
+}
+@keyframes animate-path3
+{
+   100%
+   {
+    stroke-dashoffset: 125;
+   }
+}
+@keyframes animate-path3
+{
+   100%
+   {
+    stroke-dashoffset: 75;
+   }
+}
+
+.radio-bars .radio .percentage
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: beige;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5 1s linear forwards;
+    opacity: 0;
+}
+
+.process-bar .text
+{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    color: azure;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.text
+{
+  color: aliceblue;
+  font-size: 20px;
+  opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.Project h1
+{
+    font-size: 80px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: green;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+.Project h1 span
+{
+    color: white;
+}
+.Project h2
+{
+    color: green;
+}
+
+.Project-List 
+{
+  display: flex;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.project1
+{
+   border: 2px solid white;
+   margin: 10px;
+}
+.project1 p
+{
+  color: white;
+}
+.project1 span
+{
+  padding: 10px;
+}
+.project2
+{
+   border: 2px solid white;
+   margin: 10px;
+}
+.project2 p
+{
+  color: white;
+}
+.project2 span
+{
+  padding: 10px;
+}
+.project3
+{
+   border: 2px solid white;
+   margin: 10px;
+}
+.project3 p
+{
+  color: white;
+}
+.project3 span
+{
+  padding: 10px;
+}
+
+.Project-img:hover
+{
+   color: aliceblue;
+   font-size: 20px;
+}
+.contects
+{
+    padding-left: 150px;
+}
+.contects h1
+{
+    font-size: 80px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: green;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+.contects h2
+{
+    font-size: 40px;
+    padding-left: 100px;
+    color: greenyellow;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+.contects h3
+{
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.contects h1 span
+{
+   color: white;
+}
+.content
+{
+    display: flex;
+}
+.con1 hr
+{
+   padding-right: 100px;
+}
+.con2 ul
+{
+    padding-left: 270px;
+    list-style: none;
+}
+.con2 ul li
+{
+    list-style: none;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.con2 ul li input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    color: greenyellow;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.con2 ul li input 
+{
+    background-color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.textarea
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.con2 ul li textarea
+{
+    background-color: white;
+}
+.con2 button
+{
+
+    margin-left: 350px;
+}
+
+@keyframes slideRight
+{
+    0%
+    {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft
+{
+    0%
+    {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop
+{
+    0%
+    {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom
+{
+    0%
+    {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
